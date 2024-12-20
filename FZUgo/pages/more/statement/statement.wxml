@@ -1,0 +1,58 @@
+<!--pages/statement/statement.wxml-->
+<view class="card">
+    <view class="card-title">
+        <image class="card-title-img" src="{{statement}}" />
+        <view class="card-title-font">
+            软件声明
+        </view>
+    </view>
+
+    <view class="card-container">
+        <view class="card-container-title">
+            <image class="card-container-title-img" src="{{message}}" />
+            <view class="card-container-title-font">
+                声明
+            </view>
+        </view>
+        <view class="card-container-text">
+            {{miniprogram_name}}小程序 | {{information.type}}
+        </view>
+
+        <view class="card-container-text">
+            {{information.author}} | 指导老师:林啟锋
+        </view>
+
+        <view class="card-container-text">
+            版权归{{school_name_full}}开发者所有!
+        </view>
+
+    </view>
+
+    <view class="card-container">
+        <view class="card-container-title">
+            <image class="card-container-title-img" src="{{zhixie}}" />
+            <view class="card-container-title-font">
+                致谢
+            </view>
+        </view>
+        <view class="card-container-all">
+            <text class="card-container-text" decode="true">&emsp;&emsp;
+
+在此，我要向所有为校园导航小程序的开发提供支持和帮助的朋友们致以诚挚的感谢！
+
+首先，感谢以下校园导航小程序的支持，它们的功能和设计为我的开发提供了重要的灵感和参考。特别感谢“桂院导航”，其代码支持为我克服开发过程中遇到的许多技术难题提供了关键帮助。
+
+此外，感谢在开发过程中给予我们意见和建议的团队成员和测试用户，正是因为大家的共同努力，才让这个小程序更加完善，为校园生活提供了便捷的服务。
+
+希望这个小程序能在帮助新生了解校园、提升用户体验方面发挥积极作用，也期待未来继续探索和改进，为大家带来更好的功能与服务！
+
+再次感谢！</text>
+<view class="card-container">
+  <image class="image" src="https://i-blog.csdnimg.cn/direct/cf6ecb2456aa44319f71b30a93a72cb6.jpeg" mode="widthFix"></image>
+</view>
+
+        </view>
+    </view>
+
+
+</view>
